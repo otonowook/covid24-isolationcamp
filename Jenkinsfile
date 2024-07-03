@@ -8,7 +8,7 @@ pipeline {
         EKS_JENKINS_CREDENTIAL_ID = 'Kubernetes-Cred'
         ECR_PATH = '879772956301.dkr.ecr.ca-central-1.amazonaws.com' 
         ECR_IMAGE = 'user10-isolationcamp'
-        AWS_CREDENTIAL_ID = 'AWS-Cred'
+        AWS_CREDENTIAL_ID = 'AWS-Cred' 
     }
     stages {
         stage('Clone Repository') {
