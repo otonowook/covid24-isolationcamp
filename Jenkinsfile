@@ -6,7 +6,7 @@ pipeline {
         EKS_API = 'https://1BA484F3D80D0B464BA47D0492C77F82.yl4.ca-central-1.eks.amazonaws.com' 
         EKS_CLUSTER_NAME = 'user10-eks'
         EKS_JENKINS_CREDENTIAL_ID = 'Kubernetes-Cred'
-        ECR_PATH = '879772956301.dkr.ecr.ca-central-1.amazonaws.com'
+        ECR_PATH = '879772956301.dkr.ecr.ca-central-1.amazonaws.com' 
         ECR_IMAGE = 'user10-isolationcamp'
         AWS_CREDENTIAL_ID = 'AWS-Cred'
     }
